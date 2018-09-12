@@ -1,0 +1,18 @@
+.window{
+	width: 300px;
+	overflow: hidden;
+	display: flex;
+}
+
+.images{
+	display: flex;
+	transition: all 0.5s;
+}
+
+.red{
+	color: red;
+}
+
+#buttons{
+	cursor: pointer;
+}
