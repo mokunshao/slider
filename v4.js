@@ -8,6 +8,7 @@ for (let i = 0; i < buttons.length; i++) {
 		$('.images').css('transform','translate('+moving+'px)')
 		$(target).addClass('red').siblings('.red').removeClass('red')
 		// 另一种写法：buttons.eq(i).addClass('red').siblings('.red').removeClass('red')
+		// 另一种写法：$(buttons[i]).addClass('red').siblings('.red').removeClass('red')
 		j = index
 	})
 }
